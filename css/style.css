@@ -1,0 +1,215 @@
+body {
+    background-color: #FFFFFF;
+}
+
+.color {
+    color: #4A4A62 !important;
+    font-family: "Averta SemiBold", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+}
+
+.color:hover {
+    color: #dd4334 !important;
+}
+
+.colorh3 {
+    color: #4a4a62 !important;
+    font-family: "Averta SemiBold", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: capitalize;
+}
+
+.pcolor {
+    color: #4a4a62 !important;
+    font-family: "Averta SemiBold", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 43px;
+    text-transform: capitalize;
+}
+
+.colorh5 {
+    color: #4a4a62 !important;
+    font-family: "Averta SemiBold", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 43px;
+    text-transform: capitalize;
+}
+
+.spancolor {
+    color: #4a4a62 !important;
+    font-family: "Averta SemiBold", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    text-transform: capitalize;
+}
+
+.bg-hover-theme-colored:hover {
+    background: #0c3866 !important;
+    border-color: #0c3866 !important;
+    color: #fff !important;
+}
+
+.icon-box {
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, .90);
+    transition: ease-in-out .2s;
+    box-shadow: 3px 3px 4px #ddd;
+    min-height: 171px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 190, 190);
+}
+
+.imghover {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Incenter {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 0 40px;
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.star-rate {
+    color: orange;
+}
+
+#team {
+    background-image: url(images/team-bg1.png);
+    width: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    min-height: 100vh;
+    top: 0;
+    bottom: 0;
+}
+
+.border {
+    border-radius: 48%;
+    padding: 10px;
+}
+
+.links {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.links :hover {
+    text-decoration-line: none;
+}
+
+.social-icons {
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 18px;
+    transition: 0.4s;
+    border-radius: 50%;
+    border: 1px solid #8B89E5;
+}
+
+.social-icons:hover {
+    background-color: #31d7a9;
+    color: white;
+    text-decoration-line: none;
+}
+
+.links li::after {
+    content: "|";
+    color: white;
+}
+
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar {
+    width: 4px;
+    background-color: #F5F5F5;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #404056;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #dd4334;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration-line: none;
+}
+
+.col {
+    text-transform: uppercase;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/*  */
